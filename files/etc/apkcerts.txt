@@ -1,0 +1,349 @@
+7630_BTTools build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+7630_BlueToothTestMode build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+7x27_FQC build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+APR.apk PRESIGNED
+AccelerometerPlay build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+AccessibilityService build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+AccountAndSyncSettings build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Alerter build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+AliasActivity build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+AndroidCommonTests build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+ApiDemos build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ApiDemosTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+AppWidgetHostTest build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+AppWidgetProvider build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+ApplicationsProvider build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+AutoLocTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+AutoLocVersionedTestApp_v1 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+AutoLocVersionedTestApp_v2 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+AutoRegistrationCU build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+BackCoverChecker build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+BackupRestore build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BackupTest build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BasicGLSurfaceView build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BatteryManagerAP build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+BatteryProtect build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+BatteryWaster build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+BlogCentral build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BlueToothTestMode build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Bluetooth build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+BluetoothChat build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BluetoothDebug build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Browser build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BrowserPowerTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BrowserTestPlugin build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BrowserTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BuildWidget build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+BusinessCard build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CDA build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+CDASYSTEM build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Calculator build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CalculatorTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Calendar build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CalendarProvider build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CalendarProviderTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CalendarTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Camera build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CameraTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CertInstaller build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+CommonLed build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Compass build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Connect_Share.apk PRESIGNED
+ConnectivityManagerTest build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+ContactManager build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Contacts build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+ContactsProvider build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+ContactsProviderTests build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+CoreTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CoverAlert build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+CubeLiveWallpapers build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+CustomLocale build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+CustomerService build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DMClient build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+DateTimeSetup build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+DbgCfgTool build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DefaultContainerService build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+DensityTest build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DeskClock build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DeskClockTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Development build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+DisabledTestApp build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+DownloadManagerTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DownloadProvider build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+DownloadProviderPermissionTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DownloadProviderTests build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+DownloadProviderUi build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+DownloadPublicApiAccessTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DrmProvider build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+DumpRenderTree build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DxDrmApplication build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+DxDrmPlugin build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ECompassCalibration build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Efs_sync build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Email build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+EmailTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+EnabledTestApp build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Env_Runin_Vibrator_Tool build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+ExternalLocAllPermsTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ExternalLocPermFLTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ExternalLocTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ExternalLocVersionedTestApp_v1 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ExternalLocVersionedTestApp_v2 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ExternalSharedPermsBTTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ExternalSharedPermsDiffKeyTestApp build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+ExternalSharedPermsFLTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ExternalSharedPermsTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FIHNetworkLocation build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FM build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+FQC build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+FQC_Nvi build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Fallback build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FileManager build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Film build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FixVibrateSetting build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+FixedGridLayout build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Flip build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+FontLab build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Fountain build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkCoreTests_install_decl_perm build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkCoreTests_install_loc_auto build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkCoreTests_install_loc_internal build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkCoreTests_install_loc_sdcard build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkCoreTests_install_loc_unspecified build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkCoreTests_install_use_perm_good build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkCoreTests_install_uses_feature build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkPermissionTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkPolicyTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworkTestRunnerTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworksCoreTests build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+FrameworksGraphicsTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworksSaxTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+FrameworksServicesTests build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+FrameworksVpnTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GL2JNI build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GL2Java build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GLDual build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GLJNI build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GSensorCalibration build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GSensorCalibration_MPL build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Gallery3D build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+GaugeFWUpgradeWizard build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+GenieWidget PRESIGNED
+GestureBuilder build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GlobalTime build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Gmail PRESIGNED
+GoogleBackupTransport build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+GoogleCalendarSyncAdapter PRESIGNED
+GoogleContactsSyncAdapter PRESIGNED
+GoogleFeedback PRESIGNED
+GooglePartnerSetup PRESIGNED
+GoogleQuickSearchBox PRESIGNED
+GoogleServicesFramework PRESIGNED
+GpsDeleter build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GraphicsLab build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+GuoBiIME_MOTO_DominoQ.apk PRESIGNED
+GuoBiIME_MOTO_Domino_plus.apk PRESIGNED
+HTMLViewer build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+HelloActivity build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+HelloActivityTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Home build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ImageProcessing build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ImfTest build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ImfTestTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+InternalLocTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+JETBoy build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+KeyStoreTests build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+LargeAssetTest build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Latin.apk PRESIGNED
+LatinAmericanSpanish.apk PRESIGNED
+LatinAustralianEnglish.apk PRESIGNED
+LatinBrazilianPortuguese.apk PRESIGNED
+LatinBritishEnglish.apk PRESIGNED
+LatinCanadianFrench.apk PRESIGNED
+LatinCzech.apk PRESIGNED
+LatinDictAustralianEnglish.apk PRESIGNED
+LatinDictBritishEnglish.apk PRESIGNED
+LatinDictNewZealandEnglish.apk PRESIGNED
+LatinDutch.apk PRESIGNED
+LatinFrench.apk PRESIGNED
+LatinGerman.apk PRESIGNED
+LatinGreek.apk PRESIGNED
+LatinIME build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+LatinIMETests build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+LatinIME_moto.apk build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+LatinItalian.apk PRESIGNED
+LatinNewZealandEnglish.apk PRESIGNED
+LatinPolish.apk PRESIGNED
+LatinRussian.apk PRESIGNED
+LatinSpanish.apk PRESIGNED
+LatinSwedish.apk PRESIGNED
+LatinTurkish.apk PRESIGNED
+Launcher2 build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+LightingTest build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+LiveWallpapers build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+LiveWallpapersPicker build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+LocationTracker build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+LogManager build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+LogcatActivity build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+LotsOfApps build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+LowMemoryChecker build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+LunarLander build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+LunarLanderTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+MagicSmokeWallpapers build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+Maps PRESIGNED
+MarketUpdater PRESIGNED
+MediaProvider build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+MediaUploader PRESIGNED
+Mms build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+MmsTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+MotoSmartHandWriting.apk PRESIGNED
+MultiResolution build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Music build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+MusicTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NFCDemo build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NetworkLocation PRESIGNED
+Nfc build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+NinePatchLab build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NoLocTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NoLocVersionedTestApp_v1 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NoLocVersionedTestApp_v2 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NotePad build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NotePadTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Notepadv1 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Notepadv1Solution build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Notepadv2 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Notepadv2Solution build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Notepadv3 build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Notepadv3Solution build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+NotifyLed build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+OMADL build/target/product/security/media.x509.pem build/target/product/security/media.pk8
+OTAUpdate.apk build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+ObbApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+OpenWnn build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+PackageInstaller build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+PartialSuggestions build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+PermissionToAccessLocApi build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Phone build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+PhoneAppTests build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+PicoTts build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Pinyin.apk PRESIGNED
+PinyinIME build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+PlatformLibraryClient build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Protips build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Provision build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+QVTester build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Quake build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+QualcommSettings build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+QuickSearchBox build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+QuickSearchBoxBenchmarks build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+QuickSearchBoxTests build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+RSSReader build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+RollDiceSM.apk PRESIGNED
+RunMkyActivity build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+SampleBrowserPlugin build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SampleEmailPolicy build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+SdkSetup build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+SearchableDictionary build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+ServiceNumber build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SetAlarmRTC build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Settings build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+SettingsProvider build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+SettingsTests build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+SetupWizard PRESIGNED
+SimpleJNI build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SimpleTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SipDemo build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SkeletonApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SkeletonAppTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SlowSuggestions build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+SmokeTest build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SmokeTestApp build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SmsRegistration build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Snake build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SnakeTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SoftKeyboard build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SoundPoolTest build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SoundRecorder build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SpammySuggestions build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+SpareParts build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SpeechRecorder build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+SslLoad build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+StatusBarTest build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Stk build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Street PRESIGNED
+StrokeIME.apk PRESIGNED
+Switcher.apk PRESIGNED
+Swype_GC.apk PRESIGNED
+Swype_GC_ID535.apk PRESIGNED
+Swype_IR.apk PRESIGNED
+Swype_IR_ID535.apk PRESIGNED
+Swype_LA.apk PRESIGNED
+Swype_LA_ID535.apk PRESIGNED
+Swype_WE.apk PRESIGNED
+Swype_WE_ID535.apk PRESIGNED
+SystemUI build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Tablet_Browser.apk PRESIGNED
+Tablet_Camera.apk PRESIGNED
+Tablet_ClockWidget.apk PRESIGNED
+Tablet_Contacts.apk PRESIGNED
+Tablet_ContactsProvider.apk PRESIGNED
+Tablet_Ecompass.apk PRESIGNED
+Tablet_Email.apk PRESIGNED
+Tablet_EmailWidget.apk PRESIGNED
+Tablet_FMRadio.apk PRESIGNED
+Tablet_FacebookSync.apk PRESIGNED
+Tablet_FakeWidget.apk PRESIGNED
+Tablet_FlickrSync.apk PRESIGNED
+Tablet_Launcher2.apk PRESIGNED
+Tablet_ListViewProvider.apk PRESIGNED
+Tablet_LockScreen.apk PRESIGNED
+Tablet_Music.apk PRESIGNED
+Tablet_NotePad.apk PRESIGNED
+Tablet_RSS.apk PRESIGNED
+Tablet_StockWidget.apk PRESIGNED
+Tablet_VideoPortal.apk PRESIGNED
+Tablet_VoiceNote.apk PRESIGNED
+Tablet_Weather.apk PRESIGNED
+Tablet_eReader.apk PRESIGNED
+Tag build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+TagCanon build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+TagTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+Talk2 PRESIGNED
+Talk PRESIGNED
+TelephonyProvider build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Term build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+TestEGL build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+TransformTest build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+TtsService build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+UpdateExtToIntLocTestApp_v1_ext build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+UpdateExtToIntLocTestApp_v2_int build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+UpdateExternalLocTestApp_v1_ext build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+UpdateExternalLocTestApp_v2_none build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+UpgradeExample build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+UserDictionaryProvider build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+Vending PRESIGNED
+VersatileTestApp_Auto build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VersatileTestApp_External build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VersatileTestApp_Internal build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VersatileTestApp_None build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VisualizationWallpapers build/target/product/security/shared.x509.pem build/target/product/security/shared.pk8
+VoiceDialer build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VoiceDialerTests build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VoiceNote build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VoiceRecognitionService build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VoiceSearch PRESIGNED
+Voiper build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+VpnServices build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+Wiktionary build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+WiktionarySimple build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+YouTube PRESIGNED
+cm3623Tool build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+framework-res build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+gps_log_tools build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+launchperf build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+lowstoragetest build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+mediaframeworktest build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
+rf_nv_backup_tools build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+wifiPowerSavingMode build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+wifiTestTool build/target/product/security/platform.x509.pem build/target/product/security/platform.pk8
+wifihotspot build/target/product/security/releasekey.x509.pem build/target/product/security/releasekey.pk8
