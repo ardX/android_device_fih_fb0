@@ -1,9 +1,15 @@
 on early-init
-    export EXTERNAL_STORAGE /mnt/sdcard
-    mkdir /mnt/sdcard 0000 system system
+    #export EXTERNAL_STORAGE /mnt/sdcard
+    #mkdir /mnt/sdcard 0000 system system
+
+    export EXTERNAL_STORAGE /storage/sdcard0
+    mkdir /storage 0050 system sdcard_r
+    mkdir /storage/sdcard0 0000 system system
 
     # for backwards compatibility
-    symlink /mnt/sdcard /sdcard
+    #symlink /mnt/sdcard /sdcard
+    symlink /storage/sdcard0 /sdcard
+    symlink /storage/sdcard0 /mnt/sdcard
 
 on early-fs
     mkdir /system
@@ -11,9 +17,10 @@ on early-fs
     mkdir /cache 0771 system system
     mkdir /devlog 0700 root root
 
-    mount ext4 /dev/block/mmcblk0p7 /system wait ro barrier=1
-    mount ext4 /dev/block/mmcblk0p8 /data wait noatime nosuid nodev barrier=1 noauto_da_alloc
-    mount ext4 /dev/block/mmcblk0p11 /cache wait noatime nosuid nodev barrier=1
+    #mount ext4 /dev/block/mmcblk0p7 /system wait ro barrier=1
+    #mount ext4 /dev/block/mmcblk0p8 /data wait noatime nosuid nodev barrier=1 noauto_da_alloc
+    #mount ext4 /dev/block/mmcblk0p11 /cache wait noatime nosuid nodev barrier=1
+    mount_all /fstab.fb0
 
 import init.fb0.usb.rc
 

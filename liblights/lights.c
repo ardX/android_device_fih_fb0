@@ -90,7 +90,7 @@ static int write_int(char const* path, int value) {
         return amt == -1 ? -errno : 0;
     } else {
         if (already_warned == 0) {
-            LOGE("write_int failed to open %s\n", path);
+            ALOGE("write_int failed to open %s\n", path);
             already_warned = 1;
         }
         return -errno;
@@ -154,31 +154,31 @@ static int set_speaker_light_locked(struct light_device_t* dev,
 		    write_int(RED_BLINK_FILE, 1);
 		    write_int(GREEN_LED_FILE, 0);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		case RGB_GREEN:
 		    write_int(RED_LED_FILE, 0);
 		    write_int(GREEN_BLINK_FILE, 1);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		case RGB_BLUE:
 		    write_int(RED_LED_FILE, 1); /* Triumph doesn't have blue, so I'll set yellow. */
 		    write_int(GREEN_LED_FILE, 1);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		case RGB_BLACK: /* LED off */
 		    write_int(RED_LED_FILE, 0);
 		    write_int(GREEN_LED_FILE, 0);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		default:
 		    write_int(RED_BLINK_FILE, 1); /* Triumph doesn't have "all", so I'll set flashing yellow. */
 		    write_int(GREEN_BLINK_FILE, 1);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state (all LEDs flash on) colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state (all LEDs flash on) colorRGB=%08X\n", colorRGB);
 		    break;
 	    }
 	    break;
@@ -188,36 +188,36 @@ static int set_speaker_light_locked(struct light_device_t* dev,
 		    write_int(RED_LED_FILE, 1);
 		    write_int(GREEN_LED_FILE, 0);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		case RGB_GREEN:
 		    write_int(RED_LED_FILE, 0);
 		    write_int(GREEN_LED_FILE, 1);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		case RGB_BLUE:
 		    write_int(RED_LED_FILE, 0);
 		    write_int(GREEN_LED_FILE, 0);
 		    write_int(BLUE_LED_FILE, 1);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		case RGB_BLACK: /* LED off */
 		    write_int(RED_LED_FILE, 0);
 		    write_int(GREEN_LED_FILE, 0);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGD("set_led_state colorRGB=%08X\n", colorRGB);
+		    ALOGD("set_led_state colorRGB=%08X\n", colorRGB);
 		    break;
 		default:
 		    write_int(RED_LED_FILE, 1);
 		    write_int(GREEN_LED_FILE, 0);
 		    write_int(BLUE_LED_FILE, 0);
-		    LOGE("set_led_state colorRGB=%08X, enable red (charging)\n", colorRGB);
+		    ALOGE("set_led_state colorRGB=%08X, enable red (charging)\n", colorRGB);
 		    break;
 	    }
 	    break;
 	default:
-	    LOGE("set_led_state colorRGB=%08X, unknown mode %d\n", colorRGB, state->flashMode);
+	    ALOGE("set_led_state colorRGB=%08X, unknown mode %d\n", colorRGB, state->flashMode);
     }
     return 0;
 }
@@ -229,22 +229,22 @@ static void set_speaker_light_dual_locked(struct light_device_t *dev, struct lig
     unsigned int bcolorRGB = bstate->color & 0xFFFFFF;
     unsigned int ncolorRGB = nstate->color & 0xFFFFFF;
     
-    LOGD("set_led_state (plugged) ncolorRGB=%08X, bcolorRGB=%08X\n", ncolorRGB, bcolorRGB);	
+    ALOGD("set_led_state (plugged) ncolorRGB=%08X, bcolorRGB=%08X\n", ncolorRGB, bcolorRGB);	
     if(bcolorRGB == RGB_RED) {
 	write_int(RED_LED_FILE, 1);
 	write_int(GREEN_BLINK_FILE, 1);
 	write_int(BLUE_LED_FILE, 0);
-	LOGD("set_led_state (dual) bcolorRGB=%08X\n", bcolorRGB);	
+	ALOGD("set_led_state (dual) bcolorRGB=%08X\n", bcolorRGB);	
     } else if(bcolorRGB == RGB_GREEN) {
 	write_int(RED_BLINK_FILE, 1);
 	write_int(GREEN_LED_FILE, 1);
 	write_int(BLUE_LED_FILE, 0);
-	LOGD("set_led_state (dual) bcolorRGB=%08X\n", bcolorRGB); 
+	ALOGD("set_led_state (dual) bcolorRGB=%08X\n", bcolorRGB); 
     } else {
 	write_int(RED_LED_FILE, 1);	/* Set red/orange flash */
 	write_int(GREEN_BLINK_FILE, 1);
 	write_int(BLUE_LED_FILE, 0);
-	LOGD("set_led_state (Plugged, Orange/Red flash) colorRGB=%08X\n", bcolorRGB);
+	ALOGD("set_led_state (Plugged, Orange/Red flash) colorRGB=%08X\n", bcolorRGB);
     }
 }
 
@@ -347,7 +347,7 @@ static struct hw_module_methods_t lights_module_methods = {
 /*
  * The lights Module
  */
-const struct hw_module_t HAL_MODULE_INFO_SYM = {
+struct hw_module_t HAL_MODULE_INFO_SYM = {
     .tag = HARDWARE_MODULE_TAG,
     .version_major = 1,
     .version_minor = 0,

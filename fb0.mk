@@ -104,7 +104,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/fih/fb0/kernel/init.fb0.rc:root/init.fb0.rc \
     device/fih/fb0/kernel/init.fb0.usb.rc:root/init.fb0.usb.rc \
-    device/fih/fb0/kernel/ueventd.fb0.rc:root/ueventd.fb0.rc 
+    device/fih/fb0/kernel/ueventd.fb0.rc:root/ueventd.fb0.rc \
+    device/fih/fb0/kernel/fstab.fb0:root/fstab.fb0
 
 # init.d 
 PRODUCT_COPY_FILES += \
@@ -122,19 +123,19 @@ PRODUCT_COPY_FILES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/handheld_core_hardware.xml:/system/etc/permissions/handheld_core_hardware.xml \
-    frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
-    frameworks/base/data/etc/android.hardware.camera.flash-autofocus.xml:/system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
-    frameworks/base/data/etc/android.hardware.camera.autofocus.xml:/system/etc/permissions/android.hardware.camera.autofocus.xml \
-    frameworks/base/data/etc/android.hardware.camera.xml:/system/etc/permissions/android.hardware.camera.xml \
-    frameworks/base/data/etc/android.hardware.camera.front.xml:/system/etc/permissions/android.hardware.camera.front.xml \
-    frameworks/base/data/etc/android.hardware.location.gps.xml:/system/etc/permissions/android.hardware.location.gps.xml \
-    frameworks/base/data/etc/android.hardware.wifi.xml:/system/etc/permissions/android.hardware.wifi.xml \
-    frameworks/base/data/etc/android.hardware.sensor.proximity.xml:/system/etc/permissions/android.hardware.sensor.proximity.xml \
-    frameworks/base/data/etc/android.hardware.sensor.compass.xml:/system/etc/permissions/android.hardware.sensor.compass.xml \
-    frameworks/base/data/etc/android.hardware.sensor.light.xml:/system/etc/permissions/android.hardware.sensor.light.xml \
-    frameworks/base/data/etc/android.hardware.sensor.accelerometer.xml:/system/etc/permissions/android.hardware.sensor.accelerometer.xml \
-    frameworks/base/data/etc/android.hardware.touchscreen.multitouch.xml:/system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
+    frameworks/native/data/etc/handheld_core_hardware.xml:/system/etc/permissions/handheld_core_hardware.xml \
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
+    frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:/system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
+    frameworks/native/data/etc/android.hardware.camera.autofocus.xml:/system/etc/permissions/android.hardware.camera.autofocus.xml \
+    frameworks/native/data/etc/android.hardware.camera.xml:/system/etc/permissions/android.hardware.camera.xml \
+    frameworks/native/data/etc/android.hardware.camera.front.xml:/system/etc/permissions/android.hardware.camera.front.xml \
+    frameworks/native/data/etc/android.hardware.location.gps.xml:/system/etc/permissions/android.hardware.location.gps.xml \
+    frameworks/native/data/etc/android.hardware.wifi.xml:/system/etc/permissions/android.hardware.wifi.xml \
+    frameworks/native/data/etc/android.hardware.sensor.proximity.xml:/system/etc/permissions/android.hardware.sensor.proximity.xml \
+    frameworks/native/data/etc/android.hardware.sensor.compass.xml:/system/etc/permissions/android.hardware.sensor.compass.xml \
+    frameworks/native/data/etc/android.hardware.sensor.light.xml:/system/etc/permissions/android.hardware.sensor.light.xml \
+    frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:/system/etc/permissions/android.hardware.sensor.accelerometer.xml \
+    frameworks/native/data/etc/android.hardware.touchscreen.multitouch.xml:/system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
 
 # init scripts
@@ -241,9 +242,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.locale.region=US \
     ro.use_data_netmgrd=true \
     hwui.render_dirty_regions=false
-#    hwui.render_dirty_regions=false \
-#    ro.cm.version=9-${DATE}-SNAPSHOT-FB0 \
-#    ro.modversion=9-${DATE}-SNAPSHOT-FB0
     
 # High-density art, but English locale
 PRODUCT_LOCALES += en
@@ -255,12 +253,9 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 
 $(call inherit-product, build/target/product/full_base.mk)
 
+$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=fb0 \
-    TARGET_DEVICE=fb0 \
-    BUILD_FINGERPRINT="google/yakju/maguro:4.0.4/IMM76D/299849:user/release-keys" \
-    PRIVATE_BUILD_DESC="yakju-user 4.0.4 IMM76D 299849 release-keys" \
-    BUILD_NUMBER=${DATE} \
-    BUILD_VERSION_TAGS=release-keys \
-    TARGET_BUILD_TYPE=user 
+    PRODUCT_NAME=MI410 \
+    TARGET_DEVICE=fb0
 

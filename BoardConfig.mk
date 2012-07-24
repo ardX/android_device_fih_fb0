@@ -90,10 +90,11 @@ BOARD_USE_USB_MASS_STORAGE_SWITCH := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/usb_mass_storage/lun0/file
 
 # Recovery
-TARGET_PREBUILT_RECOVERY_KERNEL := device/fih/fb0/recovery_kernel
+#TARGET_PREBUILT_RECOVERY_KERNEL := device/fih/fb0/recovery_kernel
+TARGET_RECOVERY_INITRC := device/fih/fb0/recovery/init.rc
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_USES_MMCUTILS := true
-#BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/fih/fb0/recovery/recovery_ui.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/fih/fb0/recovery/recovery_ui.c
 BOARD_CUSTOM_GRAPHICS := ../../../device/fih/fb0/recovery/minui/graphics.c
 
 # Filesystem

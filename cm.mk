@@ -30,6 +30,7 @@ PRODUCT_MANUFACTURER := FIH
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := FB0
+CM_BUILD := FB0
 
 UTC_DATE := $(shell date +%s)
 DATE     := $(shell date +%Y%m%d)

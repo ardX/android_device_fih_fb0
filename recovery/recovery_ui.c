@@ -13,31 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 #include <linux/input.h>
 
 #include "recovery_ui.h"
 #include "common.h"
 #include "extendedcommands.h"
-
-char* MENU_HEADERS[] = { "Use vol keys to highlight and menu to select.",
-                         "",
-                         NULL };
-
-char* MENU_ITEMS[] = { "reboot system now",
-                       "apply update from sdcard",
-                       "wipe data/factory reset",
-                       "wipe cache partition",
-                       "install zip from sdcard",
-                       "backup and restore",
-                       "mounts and storage",
-                       "advanced",
-                       "power off",
-                       NULL };
-
-int device_recovery_start() {
-    return 0;
-}
 
 int device_toggle_display(volatile char* key_pressed, int key_code) {
     int alt = key_pressed[KEY_LEFTALT] || key_pressed[KEY_RIGHTALT];
@@ -51,10 +31,6 @@ int device_toggle_display(volatile char* key_pressed, int key_code) {
     return get_allow_toggle_display() && (key_code == KEY_POWER || key_code == KEY_END);
 }
 
-int device_reboot_now(volatile char* key_pressed, int key_code) {
-    return 0;
-}
-
 int device_handle_key(int key_code, int visible) {
     if (visible) {
         switch (key_code) {
@@ -64,21 +40,21 @@ int device_handle_key(int key_code, int visible) {
             case KEY_VOLUMEUP:
                 return HIGHLIGHT_UP;
 
-            case KEY_MENU:
+            case KEY_SEARCH:
                 return SELECT_ITEM;
 
+            case KEY_MENU:
+                return HIGHLIGHT_DOWN;
+
+            case KEY_HOME:
+                return HIGHLIGHT_UP;
+
             case KEY_BACK:
-                return GO_BACK;
+                //if (ui_menu_level > 0) {
+                    return GO_BACK;
+                //}
         }
     }
 
     return NO_ACTION;
-}
-
-int device_perform_action(int which) {
-    return which;
-}
-
-int device_wipe_data() {
-    return 0;
 }

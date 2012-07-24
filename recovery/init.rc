@@ -1,0 +1,53 @@
+on early-init
+    start ueventd
+
+on init
+    export PATH /sbin
+    export ANDROID_ROOT /system
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /sdcard
+
+    symlink /system/etc /etc
+
+    mkdir /boot
+    mkdir /sdcard
+    mkdir /sd-ext
+    mkdir /datadata
+    mkdir /emmc
+    mkdir /system
+    mkdir /data
+    mkdir /cache
+    mkdir /fat
+    mount /tmp /tmp tmpfs
+
+    devwait /dev/block/mmcblk0p11
+ 
+on boot
+
+    ifup lo
+    hostname localhost
+    domainname localdomain
+
+    class_start default
+
+service ueventd /sbin/ueventd
+    critical
+
+service recovery /sbin/recovery
+
+service adbd /sbin/adbd recovery
+    disabled
+
+on property:persist.service.adb.enable=1
+    start adbd
+
+on property:persist.service.adb.enable=0
+    stop adbd
+
+service rmt_storage /sbin/rmt_storage /dev/block/mmcblk0p13 /dev/block/mmcblk0p14 /dev/block/mmcblk0p15
+    user root
+    disabled
+
+on property:ro.emmc=1
+    start rmt_storage
+

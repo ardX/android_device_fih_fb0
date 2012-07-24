@@ -354,7 +354,7 @@ def WriteFullOTAPackage(input_zip, output_zip):
 
   #Set permissions for other files that are missed
   script.SetPermissions("/system/etc/init.qcom.bt.sh", 0, 2000, 0555)
-  script.SetPermissions("/system/etc/init.qcom.coex.sh", 0, 2000, 0555)
+  #script.SetPermissions("/system/etc/init.qcom.coex.sh", 0, 2000, 0555)
   script.SetPermissions("/system/etc/init.qcom.fm.sh", 0, 2000, 0555)
   script.SetPermissions("/system/etc/init.qcom.wifi.sh", 0, 2000, 0555)
   script.SetPermissions("/system/etc/init.qcom.sdio.sh", 0, 2000, 0555)
