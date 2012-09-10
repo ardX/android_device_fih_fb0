@@ -217,7 +217,9 @@ PRODUCT_COPY_FILES += \
 
 # xml config
 PRODUCT_COPY_FILES += \
-    device/fih/fb0/files/etc/media_profiles.xml:system/etc/media_profiles.xml
+    device/fih/fb0/files/etc/media_profiles.xml:system/etc/media_profiles.xml \
+    device/fih/fb0/files/etc/media_codecs.xml:system/etc/media_codecs.xml \
+    device/fih/fb0/files/etc/audio_policy.conf:system/etc/audio_policy.conf
 
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
@@ -226,7 +228,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.gprsclass=10 \
     ro.telephony.default_network=0 \
     ro.telephony.call_ring.multiple=false \
-    ro.telephony.ril_class=LGEQualcommRIL \
+    ro.telephony.ril_class=SonyQualcommRIL \
     ro.telephony.ril.v3=icccardstatus,skipbrokendatacall,datacall,signalstrength,facilitylock \
     keyguard.no_require_sim=true \
     ro.com.google.locationfeatures=1 \
